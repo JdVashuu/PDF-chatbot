@@ -19,7 +19,6 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
 load_dotenv()
-#os.environ["OPENAI_API_KEY"] = "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"
 api_key = os.getenv("OPENAI_API_KEY")
 DOC_PATH = "data.pdf"
 
